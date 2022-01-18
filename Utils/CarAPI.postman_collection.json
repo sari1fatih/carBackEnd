@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "c5e7737c-428f-4748-89e3-a894f1bcc04b",
+		"name": "CarAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddCarUst",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{    \r\n  \"Name\": \"tr\",\r\n  \"Surname\": \"string\",\r\n  \"Email\": \"string\",\r\n  \"Telephone\": \"Telephone\",\r\n  \"Model\": \"Model\",\r\n  \"Message\": \"\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6528/api/Buy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6528",
+					"path": [
+						"api",
+						"Buy"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
